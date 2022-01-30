@@ -1,0 +1,21 @@
+* Data
+*.Lib
+*.MAP
+*.SYM
+*.dbg
+*.hqx
+*.idb
+*.in
+*.lib
+*.pyc
+*.slb
+*.xMAP
+*.xSYM
+.#*
+.cvsignore
+@*
+CVS
+Makefile.pre.in
+PyIDE-src
+[(]*[)]
+*~[0-9]

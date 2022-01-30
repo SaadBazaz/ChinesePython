@@ -1,0 +1,36 @@
+the steps to make cpython from original python:
+
+a)	modify tokenizer.c and add highascii support.
+b)	modify grammar.c add highascii support.
+c)	compile and check chinese variable names is valid
+d)	modify Grammar/Grammar to add chinese keywork
+e)	modify pythonrun.c to enalbe chinese version of 'from xx import xx'
+f)	various chinese text can be added
+g)	the modules, separate as chinese version and english version is
+	preferred since the 'dir()' will be clearer then.
+
+-----------------------------------------------------------------
+next stage:
+
+a)	traverse Objects/ to make builtin types/objects more friendly
+	by adding __»¡©ú__, __¦WºÙ__ ...
+b)	add chinese function alias to built in methods of stringobject, 
+	fileobject ...
+b)	traverse Python/compile.c ceval.c exceptions.c errors.c modsupport.c ...
+	to make more chinese messages there
+c)	modify Python/bltinmodules.c and give chinese name to builtin functions 
+
+------------------------------------------------------------------
+final stage:
+
+a)	edit setup.py to cope for chinese version of modules
+b)	copy english module files and rename to something else, 
+	work on those files to replace functions, labels to chinese
+c)	compile both versions of modules in and check
+
+-------------------------------------------------------------------
+user stage:
+
+a)	make chinse version of file in Lib/	
+b)	provide chinese translations to __doc__ docstr
+c)	translate other third party modules

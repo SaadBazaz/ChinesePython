@@ -1,0 +1,106 @@
+# Grammar for Python
+
+# Modified by Glace. Chinese keywords added. 06/2001
+
+# Note:  Changing the grammar specified in this file will most likely
+#        require corresponding changes in the parser module
+#        (../Modules/parsermodule.c).  If you can't make the changes to
+#        that module yourself, please co-ordinate the required changes
+#        with someone who can; ask around on python-dev for help.  Fred
+#        Drake <fdrake@acm.org> will probably be listening there.
+
+# Commands for Kees Blom's railroad program
+#diagram:token NAME
+#diagram:token NUMBER
+#diagram:token STRING
+#diagram:token NEWLINE
+#diagram:token ENDMARKER
+#diagram:token INDENT
+#diagram:output\input python.bla
+#diagram:token DEDENT
+#diagram:output\textwidth 20.04cm\oddsidemargin  0.0cm\evensidemargin 0.0cm
+#diagram:rules
+
+# Start symbols for the grammar:
+#	single_input is a single interactive statement;
+#	file_input is a module or sequence of commands read from an input file;
+#	eval_input is the input for the eval() and input() functions.
+# NB: compound_stmt in single_input is followed by extra NEWLINE!
+single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE
+file_input: (NEWLINE | stmt)* ENDMARKER
+eval_input: testlist NEWLINE* ENDMARKER
+
+funcdef: ('def'|'函數' | '定義') NAME parameters ':' suite
+parameters: '(' [varargslist] ')'
+varargslist: (fpdef ['=' test] ',')* ('*' NAME [',' '**' NAME] | '**' NAME) | fpdef ['=' test] (',' fpdef ['=' test])* [',']
+fpdef: NAME | '(' fplist ')'
+fplist: fpdef (',' fpdef)* [',']
+
+stmt: simple_stmt | compound_stmt
+simple_stmt: small_stmt (';' small_stmt)* [';'] NEWLINE
+small_stmt: expr_stmt | print_stmt  | del_stmt | pass_stmt | flow_stmt | import_stmt | global_stmt | exec_stmt | assert_stmt
+expr_stmt: testlist (augassign testlist | ('=' testlist)*)
+augassign: '+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>>=' | '**='
+# For normal assignments, additional restrictions enforced by the interpreter
+print_stmt: ( 'print' | '寫') ( [ test (',' test)* [','] ] | '>>' test [
+(',' test)+ [','] ] )
+del_stmt: ('del'|'刪除') exprlist
+pass_stmt: 'pass'|'忽略'
+flow_stmt: break_stmt | continue_stmt | return_stmt | raise_stmt
+break_stmt: 'break'| '中斷' 
+continue_stmt: 'continue' | '下一個'
+return_stmt: ('return'|'傳回') [testlist]
+raise_stmt: ('raise'|'示警') [test [',' test [',' test]]]
+import_stmt: ('import'|'載入') dotted_as_name (',' dotted_as_name)* | ('from'|'從') dotted_name ('import'|'載入') ('*' | import_as_name (',' import_as_name)*)
+import_as_name: NAME [NAME NAME]
+dotted_as_name: dotted_name [NAME NAME]
+dotted_name: NAME ('.' NAME)*
+global_stmt: ('global'|'共用') NAME (',' NAME)*
+exec_stmt: ('exec'|'執行') expr ['in' test [',' test]]
+assert_stmt: ('assert'|'斷言') test [',' test]
+
+compound_stmt: if_stmt | while_stmt | for_stmt | try_stmt | funcdef | classdef
+if_stmt: ('if'|'如') test ':' suite (('elif'|'不然') test ':' suite)* [('else'|'否則') ':' suite]
+while_stmt: ('while'|'只要') test ':' suite [('else'|'否則') ':' suite]
+for_stmt: ('for'|'取') exprlist ('in'|'自') testlist ':' suite [('else'|'然後') 
+':' suite]
+try_stmt: (('try'|'試') ':' suite (except_clause ':' suite)+
+#diagram:break
+           [('else'|'否則') ':' suite] | ('try'|'試') ':' suite
+('finally'|'然後') ':' suite)
+# NB compile.c makes sure that the default except clause is last
+except_clause: ('except'|'失敗') [test [',' test]]
+suite: simple_stmt | NEWLINE INDENT stmt+ DEDENT
+
+test: and_test (('or'|'或') and_test)* | lambdef
+and_test: not_test (('and'|'且') not_test)*
+not_test: ('not'|'不是') not_test | comparison
+comparison: expr (comp_op expr)*
+comp_op: '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'來自'|'not' 'in'|'不來自'|'is'|'是'|'is' 'not'|'不是'
+expr: xor_expr ('|' xor_expr)*
+xor_expr: and_expr ('^' and_expr)*
+and_expr: shift_expr ('&' shift_expr)*
+shift_expr: arith_expr (('<<'|'>>') arith_expr)*
+arith_expr: term (('+'|'-') term)*
+term: factor (('*'|'/'|'%') factor)*
+factor: ('+'|'-'|'~') factor | power
+power: atom trailer* ('**' factor)*
+atom: '(' [testlist] ')' | '[' [listmaker] ']' | '{' [dictmaker] '}' | '`' testlist '`' | NAME | NUMBER | STRING+
+listmaker: test ( list_for | (',' test)* [','] )
+lambdef: 'lambda' [varargslist] ':' test
+trailer: '(' [arglist] ')' | '[' subscriptlist ']' | '.' NAME
+subscriptlist: subscript (',' subscript)* [',']
+subscript: '.' '.' '.' | test | [test] ':' [test] [sliceop]
+sliceop: ':' [test]
+exprlist: expr (',' expr)* [',']
+testlist: test (',' test)* [',']
+dictmaker: test ':' test (',' test ':' test)* [',']
+
+classdef: ('class'|'概念'|'類別') NAME ['(' testlist ')'] ':' suite
+
+arglist: (argument ',')* (argument [',']| '*' test [',' '**' test] | '**' test)
+argument: [test '='] test	# Really [keyword '='] test
+
+list_iter: list_for | list_if
+list_for: ('for'|'取') exprlist ('in'|'自') testlist [list_iter]
+list_if: ('if'|'如') test [list_iter]

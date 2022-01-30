@@ -1,0 +1,48 @@
+test_exceptions
+5. Built-in exceptions
+spam
+屬性異常
+spam
+檔案終結異常
+spam
+輸入/出異常
+spam
+載入異常
+spam
+索引異常
+spam
+鍵值異常
+spam
+鍵盤中斷
+(not testable in a script)
+spam
+記憶體異常
+(not safe to test)
+spam
+名稱異常
+spam
+溢值異常
+spam
+執行異常
+(not used any more?)
+spam
+句法異常
+'continue/繼續' 不能放在 'finally/之後' 句子裏
+ok
+spam
+縮排異常
+spam
+跳格異常
+spam
+系統異常
+(hard to reproduce)
+spam
+退出系統
+spam
+類型異常
+spam
+值異常
+spam
+除零異常
+spam
+Exception

@@ -1,0 +1,25 @@
+/README/1.2/Fri Apr 12 09:44:03 2002//
+/__init__.py/1.3/Sat Jul 19 04:55:13 2003//
+/archive_util.py/1.2/Fri Apr 12 09:44:03 2002//
+/bcppcompiler.py/1.2/Fri Apr 12 09:44:03 2002//
+/ccompiler.py/1.3/Sat Jul 19 04:55:13 2003//
+/cmd.py/1.2/Fri Apr 12 09:44:03 2002//
+/core.py/1.2/Fri Apr 12 09:44:03 2002//
+/cygwinccompiler.py/1.2/Fri Apr 12 09:44:03 2002//
+/dep_util.py/1.2/Fri Apr 12 09:44:03 2002//
+/dir_util.py/1.2/Fri Apr 12 09:44:03 2002//
+/dist.py/1.2/Fri Apr 12 09:44:03 2002//
+/errors.py/1.2/Fri Apr 12 09:44:03 2002//
+/extension.py/1.2/Fri Apr 12 09:44:03 2002//
+/fancy_getopt.py/1.2/Fri Apr 12 09:44:04 2002//
+/file_util.py/1.2/Fri Apr 12 09:44:04 2002//
+/filelist.py/1.2/Fri Apr 12 09:44:04 2002//
+/msvccompiler.py/1.2/Fri Apr 12 09:44:04 2002//
+/mwerkscompiler.py/1.1.1.1/Fri Apr 12 09:11:27 2002//
+/spawn.py/1.2/Fri Apr 12 09:44:05 2002//
+/sysconfig.py/1.3/Fri Apr 19 13:05:41 2002//
+/text_file.py/1.2/Fri Apr 12 09:44:05 2002//
+/unixccompiler.py/1.3/Sat Jul 19 04:55:13 2003//
+/util.py/1.2/Fri Apr 12 09:44:05 2002//
+/version.py/1.2/Fri Apr 12 09:44:05 2002//
+D/command////

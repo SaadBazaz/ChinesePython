@@ -1,0 +1,1054 @@
+test_coercion
+2 + 2 = 4
+2 += 2 => 4
+2 - 2 = 0
+2 -= 2 => 0
+2 * 2 = 4
+2 *= 2 => 4
+2 / 2 = 1
+2 /= 2 => 1
+2 ** 2 = 4
+2 **= 2 => 4
+2 % 2 = 0
+2 %= 2 => 0
+2 + 4.0 = 6.0
+2 += 4.0 => 6.0
+2 - 4.0 = -2.0
+2 -= 4.0 => -2.0
+2 * 4.0 = 8.0
+2 *= 4.0 => 8.0
+2 / 4.0 = 0.5
+2 /= 4.0 => 0.5
+2 ** 4.0 = 16.0
+2 **= 4.0 => 16.0
+2 % 4.0 = 2.0
+2 %= 4.0 => 2.0
+2 + 2 = 4
+2 += 2 => 4
+2 - 2 = 0
+2 -= 2 => 0
+2 * 2 = 4
+2 *= 2 => 4
+2 / 2 = 1
+2 /= 2 => 1
+2 ** 2 = 4
+2 **= 2 => 4
+2 % 2 = 0
+2 %= 2 => 0
+2 + (2+0j) = (4+0j)
+2 += (2+0j) => (4+0j)
+2 - (2+0j) = 0j
+2 -= (2+0j) => 0j
+2 * (2+0j) = (4+0j)
+2 *= (2+0j) => (4+0j)
+2 / (2+0j) = (1+0j)
+2 /= (2+0j) => (1+0j)
+2 ** (2+0j) = (4+0j)
+2 **= (2+0j) => (4+0j)
+2 % (2+0j) = 0j
+2 %= (2+0j) => 0j
+2 + [1] ... exceptions.類型異常
+2 += [1] ... exceptions.類型異常
+2 - [1] ... exceptions.類型異常
+2 -= [1] ... exceptions.類型異常
+2 * [1] = [1, 1]
+2 *= [1] => [1, 1]
+2 / [1] ... exceptions.類型異常
+2 /= [1] ... exceptions.類型異常
+2 ** [1] ... exceptions.類型異常
+2 **= [1] ... exceptions.類型異常
+2 % [1] ... exceptions.類型異常
+2 %= [1] ... exceptions.類型異常
+2 + (2,) ... exceptions.類型異常
+2 += (2,) ... exceptions.類型異常
+2 - (2,) ... exceptions.類型異常
+2 -= (2,) ... exceptions.類型異常
+2 * (2,) = (2, 2)
+2 *= (2,) => (2, 2)
+2 / (2,) ... exceptions.類型異常
+2 /= (2,) ... exceptions.類型異常
+2 ** (2,) ... exceptions.類型異常
+2 **= (2,) ... exceptions.類型異常
+2 % (2,) ... exceptions.類型異常
+2 %= (2,) ... exceptions.類型異常
+2 + 無 ... exceptions.類型異常
+2 += 無 ... exceptions.類型異常
+2 - 無 ... exceptions.類型異常
+2 -= 無 ... exceptions.類型異常
+2 * 無 ... exceptions.類型異常
+2 *= 無 ... exceptions.類型異常
+2 / 無 ... exceptions.類型異常
+2 /= 無 ... exceptions.類型異常
+2 ** 無 ... exceptions.類型異常
+2 **= 無 ... exceptions.類型異常
+2 % 無 ... exceptions.類型異常
+2 %= 無 ... exceptions.類型異常
+2 + <MethodNumber 1> = 3
+2 += <MethodNumber 1> => 3
+2 - <MethodNumber 1> = 1
+2 -= <MethodNumber 1> => 1
+2 * <MethodNumber 1> = 2
+2 *= <MethodNumber 1> => 2
+2 / <MethodNumber 1> = 2
+2 /= <MethodNumber 1> => 2
+2 ** <MethodNumber 1> = 2
+2 **= <MethodNumber 1> => 2
+2 % <MethodNumber 1> = 0
+2 %= <MethodNumber 1> => 0
+2 + <CoerceNumber 2> = 4
+2 += <CoerceNumber 2> => 4
+2 - <CoerceNumber 2> = 0
+2 -= <CoerceNumber 2> => 0
+2 * <CoerceNumber 2> = 4
+2 *= <CoerceNumber 2> => 4
+2 / <CoerceNumber 2> = 1
+2 /= <CoerceNumber 2> => 1
+2 ** <CoerceNumber 2> = 4
+2 **= <CoerceNumber 2> => 4
+2 % <CoerceNumber 2> = 0
+2 %= <CoerceNumber 2> => 0
+4.0 + 2 = 6.0
+4.0 += 2 => 6.0
+4.0 - 2 = 2.0
+4.0 -= 2 => 2.0
+4.0 * 2 = 8.0
+4.0 *= 2 => 8.0
+4.0 / 2 = 2.0
+4.0 /= 2 => 2.0
+4.0 ** 2 = 16.0
+4.0 **= 2 => 16.0
+4.0 % 2 = 0.0
+4.0 %= 2 => 0.0
+4.0 + 4.0 = 8.0
+4.0 += 4.0 => 8.0
+4.0 - 4.0 = 0.0
+4.0 -= 4.0 => 0.0
+4.0 * 4.0 = 16.0
+4.0 *= 4.0 => 16.0
+4.0 / 4.0 = 1.0
+4.0 /= 4.0 => 1.0
+4.0 ** 4.0 = 256.0
+4.0 **= 4.0 => 256.0
+4.0 % 4.0 = 0.0
+4.0 %= 4.0 => 0.0
+4.0 + 2 = 6.0
+4.0 += 2 => 6.0
+4.0 - 2 = 2.0
+4.0 -= 2 => 2.0
+4.0 * 2 = 8.0
+4.0 *= 2 => 8.0
+4.0 / 2 = 2.0
+4.0 /= 2 => 2.0
+4.0 ** 2 = 16.0
+4.0 **= 2 => 16.0
+4.0 % 2 = 0.0
+4.0 %= 2 => 0.0
+4.0 + (2+0j) = (6+0j)
+4.0 += (2+0j) => (6+0j)
+4.0 - (2+0j) = (2+0j)
+4.0 -= (2+0j) => (2+0j)
+4.0 * (2+0j) = (8+0j)
+4.0 *= (2+0j) => (8+0j)
+4.0 / (2+0j) = (2+0j)
+4.0 /= (2+0j) => (2+0j)
+4.0 ** (2+0j) = (16+0j)
+4.0 **= (2+0j) => (16+0j)
+4.0 % (2+0j) = 0j
+4.0 %= (2+0j) => 0j
+4.0 + [1] ... exceptions.類型異常
+4.0 += [1] ... exceptions.類型異常
+4.0 - [1] ... exceptions.類型異常
+4.0 -= [1] ... exceptions.類型異常
+4.0 * [1] ... exceptions.類型異常
+4.0 *= [1] ... exceptions.類型異常
+4.0 / [1] ... exceptions.類型異常
+4.0 /= [1] ... exceptions.類型異常
+4.0 ** [1] ... exceptions.類型異常
+4.0 **= [1] ... exceptions.類型異常
+4.0 % [1] ... exceptions.類型異常
+4.0 %= [1] ... exceptions.類型異常
+4.0 + (2,) ... exceptions.類型異常
+4.0 += (2,) ... exceptions.類型異常
+4.0 - (2,) ... exceptions.類型異常
+4.0 -= (2,) ... exceptions.類型異常
+4.0 * (2,) ... exceptions.類型異常
+4.0 *= (2,) ... exceptions.類型異常
+4.0 / (2,) ... exceptions.類型異常
+4.0 /= (2,) ... exceptions.類型異常
+4.0 ** (2,) ... exceptions.類型異常
+4.0 **= (2,) ... exceptions.類型異常
+4.0 % (2,) ... exceptions.類型異常
+4.0 %= (2,) ... exceptions.類型異常
+4.0 + 無 ... exceptions.類型異常
+4.0 += 無 ... exceptions.類型異常
+4.0 - 無 ... exceptions.類型異常
+4.0 -= 無 ... exceptions.類型異常
+4.0 * 無 ... exceptions.類型異常
+4.0 *= 無 ... exceptions.類型異常
+4.0 / 無 ... exceptions.類型異常
+4.0 /= 無 ... exceptions.類型異常
+4.0 ** 無 ... exceptions.類型異常
+4.0 **= 無 ... exceptions.類型異常
+4.0 % 無 ... exceptions.類型異常
+4.0 %= 無 ... exceptions.類型異常
+4.0 + <MethodNumber 1> = 5.0
+4.0 += <MethodNumber 1> => 5.0
+4.0 - <MethodNumber 1> = 3.0
+4.0 -= <MethodNumber 1> => 3.0
+4.0 * <MethodNumber 1> = 4.0
+4.0 *= <MethodNumber 1> => 4.0
+4.0 / <MethodNumber 1> = 4.0
+4.0 /= <MethodNumber 1> => 4.0
+4.0 ** <MethodNumber 1> = 4.0
+4.0 **= <MethodNumber 1> => 4.0
+4.0 % <MethodNumber 1> = 0.0
+4.0 %= <MethodNumber 1> => 0.0
+4.0 + <CoerceNumber 2> = 6.0
+4.0 += <CoerceNumber 2> => 6.0
+4.0 - <CoerceNumber 2> = 2.0
+4.0 -= <CoerceNumber 2> => 2.0
+4.0 * <CoerceNumber 2> = 8.0
+4.0 *= <CoerceNumber 2> => 8.0
+4.0 / <CoerceNumber 2> = 2.0
+4.0 /= <CoerceNumber 2> => 2.0
+4.0 ** <CoerceNumber 2> = 16.0
+4.0 **= <CoerceNumber 2> => 16.0
+4.0 % <CoerceNumber 2> = 0.0
+4.0 %= <CoerceNumber 2> => 0.0
+2 + 2 = 4
+2 += 2 => 4
+2 - 2 = 0
+2 -= 2 => 0
+2 * 2 = 4
+2 *= 2 => 4
+2 / 2 = 1
+2 /= 2 => 1
+2 ** 2 = 4
+2 **= 2 => 4
+2 % 2 = 0
+2 %= 2 => 0
+2 + 4.0 = 6.0
+2 += 4.0 => 6.0
+2 - 4.0 = -2.0
+2 -= 4.0 => -2.0
+2 * 4.0 = 8.0
+2 *= 4.0 => 8.0
+2 / 4.0 = 0.5
+2 /= 4.0 => 0.5
+2 ** 4.0 = 16.0
+2 **= 4.0 => 16.0
+2 % 4.0 = 2.0
+2 %= 4.0 => 2.0
+2 + 2 = 4
+2 += 2 => 4
+2 - 2 = 0
+2 -= 2 => 0
+2 * 2 = 4
+2 *= 2 => 4
+2 / 2 = 1
+2 /= 2 => 1
+2 ** 2 = 4
+2 **= 2 => 4
+2 % 2 = 0
+2 %= 2 => 0
+2 + (2+0j) = (4+0j)
+2 += (2+0j) => (4+0j)
+2 - (2+0j) = 0j
+2 -= (2+0j) => 0j
+2 * (2+0j) = (4+0j)
+2 *= (2+0j) => (4+0j)
+2 / (2+0j) = (1+0j)
+2 /= (2+0j) => (1+0j)
+2 ** (2+0j) = (4+0j)
+2 **= (2+0j) => (4+0j)
+2 % (2+0j) = 0j
+2 %= (2+0j) => 0j
+2 + [1] ... exceptions.類型異常
+2 += [1] ... exceptions.類型異常
+2 - [1] ... exceptions.類型異常
+2 -= [1] ... exceptions.類型異常
+2 * [1] = [1, 1]
+2 *= [1] => [1, 1]
+2 / [1] ... exceptions.類型異常
+2 /= [1] ... exceptions.類型異常
+2 ** [1] ... exceptions.類型異常
+2 **= [1] ... exceptions.類型異常
+2 % [1] ... exceptions.類型異常
+2 %= [1] ... exceptions.類型異常
+2 + (2,) ... exceptions.類型異常
+2 += (2,) ... exceptions.類型異常
+2 - (2,) ... exceptions.類型異常
+2 -= (2,) ... exceptions.類型異常
+2 * (2,) = (2, 2)
+2 *= (2,) => (2, 2)
+2 / (2,) ... exceptions.類型異常
+2 /= (2,) ... exceptions.類型異常
+2 ** (2,) ... exceptions.類型異常
+2 **= (2,) ... exceptions.類型異常
+2 % (2,) ... exceptions.類型異常
+2 %= (2,) ... exceptions.類型異常
+2 + 無 ... exceptions.類型異常
+2 += 無 ... exceptions.類型異常
+2 - 無 ... exceptions.類型異常
+2 -= 無 ... exceptions.類型異常
+2 * 無 ... exceptions.類型異常
+2 *= 無 ... exceptions.類型異常
+2 / 無 ... exceptions.類型異常
+2 /= 無 ... exceptions.類型異常
+2 ** 無 ... exceptions.類型異常
+2 **= 無 ... exceptions.類型異常
+2 % 無 ... exceptions.類型異常
+2 %= 無 ... exceptions.類型異常
+2 + <MethodNumber 1> = 3
+2 += <MethodNumber 1> => 3
+2 - <MethodNumber 1> = 1
+2 -= <MethodNumber 1> => 1
+2 * <MethodNumber 1> = 2
+2 *= <MethodNumber 1> => 2
+2 / <MethodNumber 1> = 2
+2 /= <MethodNumber 1> => 2
+2 ** <MethodNumber 1> = 2
+2 **= <MethodNumber 1> => 2
+2 % <MethodNumber 1> = 0
+2 %= <MethodNumber 1> => 0
+2 + <CoerceNumber 2> = 4
+2 += <CoerceNumber 2> => 4
+2 - <CoerceNumber 2> = 0
+2 -= <CoerceNumber 2> => 0
+2 * <CoerceNumber 2> = 4
+2 *= <CoerceNumber 2> => 4
+2 / <CoerceNumber 2> = 1
+2 /= <CoerceNumber 2> => 1
+2 ** <CoerceNumber 2> = 4
+2 **= <CoerceNumber 2> => 4
+2 % <CoerceNumber 2> = 0
+2 %= <CoerceNumber 2> => 0
+(2+0j) + 2 = (4+0j)
+(2+0j) += 2 => (4+0j)
+(2+0j) - 2 = 0j
+(2+0j) -= 2 => 0j
+(2+0j) * 2 = (4+0j)
+(2+0j) *= 2 => (4+0j)
+(2+0j) / 2 = (1+0j)
+(2+0j) /= 2 => (1+0j)
+(2+0j) ** 2 = (4+0j)
+(2+0j) **= 2 => (4+0j)
+(2+0j) % 2 = 0j
+(2+0j) %= 2 => 0j
+(2+0j) + 4.0 = (6+0j)
+(2+0j) += 4.0 => (6+0j)
+(2+0j) - 4.0 = (-2+0j)
+(2+0j) -= 4.0 => (-2+0j)
+(2+0j) * 4.0 = (8+0j)
+(2+0j) *= 4.0 => (8+0j)
+(2+0j) / 4.0 = (0.5+0j)
+(2+0j) /= 4.0 => (0.5+0j)
+(2+0j) ** 4.0 = (16+0j)
+(2+0j) **= 4.0 => (16+0j)
+(2+0j) % 4.0 = (2+0j)
+(2+0j) %= 4.0 => (2+0j)
+(2+0j) + 2 = (4+0j)
+(2+0j) += 2 => (4+0j)
+(2+0j) - 2 = 0j
+(2+0j) -= 2 => 0j
+(2+0j) * 2 = (4+0j)
+(2+0j) *= 2 => (4+0j)
+(2+0j) / 2 = (1+0j)
+(2+0j) /= 2 => (1+0j)
+(2+0j) ** 2 = (4+0j)
+(2+0j) **= 2 => (4+0j)
+(2+0j) % 2 = 0j
+(2+0j) %= 2 => 0j
+(2+0j) + (2+0j) = (4+0j)
+(2+0j) += (2+0j) => (4+0j)
+(2+0j) - (2+0j) = 0j
+(2+0j) -= (2+0j) => 0j
+(2+0j) * (2+0j) = (4+0j)
+(2+0j) *= (2+0j) => (4+0j)
+(2+0j) / (2+0j) = (1+0j)
+(2+0j) /= (2+0j) => (1+0j)
+(2+0j) ** (2+0j) = (4+0j)
+(2+0j) **= (2+0j) => (4+0j)
+(2+0j) % (2+0j) = 0j
+(2+0j) %= (2+0j) => 0j
+(2+0j) + [1] ... exceptions.類型異常
+(2+0j) += [1] ... exceptions.類型異常
+(2+0j) - [1] ... exceptions.類型異常
+(2+0j) -= [1] ... exceptions.類型異常
+(2+0j) * [1] ... exceptions.類型異常
+(2+0j) *= [1] ... exceptions.類型異常
+(2+0j) / [1] ... exceptions.類型異常
+(2+0j) /= [1] ... exceptions.類型異常
+(2+0j) ** [1] ... exceptions.類型異常
+(2+0j) **= [1] ... exceptions.類型異常
+(2+0j) % [1] ... exceptions.類型異常
+(2+0j) %= [1] ... exceptions.類型異常
+(2+0j) + (2,) ... exceptions.類型異常
+(2+0j) += (2,) ... exceptions.類型異常
+(2+0j) - (2,) ... exceptions.類型異常
+(2+0j) -= (2,) ... exceptions.類型異常
+(2+0j) * (2,) ... exceptions.類型異常
+(2+0j) *= (2,) ... exceptions.類型異常
+(2+0j) / (2,) ... exceptions.類型異常
+(2+0j) /= (2,) ... exceptions.類型異常
+(2+0j) ** (2,) ... exceptions.類型異常
+(2+0j) **= (2,) ... exceptions.類型異常
+(2+0j) % (2,) ... exceptions.類型異常
+(2+0j) %= (2,) ... exceptions.類型異常
+(2+0j) + 無 ... exceptions.類型異常
+(2+0j) += 無 ... exceptions.類型異常
+(2+0j) - 無 ... exceptions.類型異常
+(2+0j) -= 無 ... exceptions.類型異常
+(2+0j) * 無 ... exceptions.類型異常
+(2+0j) *= 無 ... exceptions.類型異常
+(2+0j) / 無 ... exceptions.類型異常
+(2+0j) /= 無 ... exceptions.類型異常
+(2+0j) ** 無 ... exceptions.類型異常
+(2+0j) **= 無 ... exceptions.類型異常
+(2+0j) % 無 ... exceptions.類型異常
+(2+0j) %= 無 ... exceptions.類型異常
+(2+0j) + <MethodNumber 1> = (3+0j)
+(2+0j) += <MethodNumber 1> => (3+0j)
+(2+0j) - <MethodNumber 1> = (1+0j)
+(2+0j) -= <MethodNumber 1> => (1+0j)
+(2+0j) * <MethodNumber 1> = (2+0j)
+(2+0j) *= <MethodNumber 1> => (2+0j)
+(2+0j) / <MethodNumber 1> = (2+0j)
+(2+0j) /= <MethodNumber 1> => (2+0j)
+(2+0j) ** <MethodNumber 1> = (2+0j)
+(2+0j) **= <MethodNumber 1> => (2+0j)
+(2+0j) % <MethodNumber 1> = 0j
+(2+0j) %= <MethodNumber 1> => 0j
+(2+0j) + <CoerceNumber 2> = (4+0j)
+(2+0j) += <CoerceNumber 2> => (4+0j)
+(2+0j) - <CoerceNumber 2> = 0j
+(2+0j) -= <CoerceNumber 2> => 0j
+(2+0j) * <CoerceNumber 2> = (4+0j)
+(2+0j) *= <CoerceNumber 2> => (4+0j)
+(2+0j) / <CoerceNumber 2> = (1+0j)
+(2+0j) /= <CoerceNumber 2> => (1+0j)
+(2+0j) ** <CoerceNumber 2> = (4+0j)
+(2+0j) **= <CoerceNumber 2> => (4+0j)
+(2+0j) % <CoerceNumber 2> = 0j
+(2+0j) %= <CoerceNumber 2> => 0j
+[1] + 2 ... exceptions.類型異常
+[1] += 2 ... exceptions.類型異常
+[1] - 2 ... exceptions.類型異常
+[1] -= 2 ... exceptions.類型異常
+[1] * 2 = [1, 1]
+[1] *= 2 => [1, 1]
+[1] / 2 ... exceptions.類型異常
+[1] /= 2 ... exceptions.類型異常
+[1] ** 2 ... exceptions.類型異常
+[1] **= 2 ... exceptions.類型異常
+[1] % 2 ... exceptions.類型異常
+[1] %= 2 ... exceptions.類型異常
+[1] + 4.0 ... exceptions.類型異常
+[1] += 4.0 ... exceptions.類型異常
+[1] - 4.0 ... exceptions.類型異常
+[1] -= 4.0 ... exceptions.類型異常
+[1] * 4.0 ... exceptions.類型異常
+[1] *= 4.0 ... exceptions.類型異常
+[1] / 4.0 ... exceptions.類型異常
+[1] /= 4.0 ... exceptions.類型異常
+[1] ** 4.0 ... exceptions.類型異常
+[1] **= 4.0 ... exceptions.類型異常
+[1] % 4.0 ... exceptions.類型異常
+[1] %= 4.0 ... exceptions.類型異常
+[1] + 2 ... exceptions.類型異常
+[1] += 2 ... exceptions.類型異常
+[1] - 2 ... exceptions.類型異常
+[1] -= 2 ... exceptions.類型異常
+[1] * 2 = [1, 1]
+[1] *= 2 => [1, 1]
+[1] / 2 ... exceptions.類型異常
+[1] /= 2 ... exceptions.類型異常
+[1] ** 2 ... exceptions.類型異常
+[1] **= 2 ... exceptions.類型異常
+[1] % 2 ... exceptions.類型異常
+[1] %= 2 ... exceptions.類型異常
+[1] + (2+0j) ... exceptions.類型異常
+[1] += (2+0j) ... exceptions.類型異常
+[1] - (2+0j) ... exceptions.類型異常
+[1] -= (2+0j) ... exceptions.類型異常
+[1] * (2+0j) ... exceptions.類型異常
+[1] *= (2+0j) ... exceptions.類型異常
+[1] / (2+0j) ... exceptions.類型異常
+[1] /= (2+0j) ... exceptions.類型異常
+[1] ** (2+0j) ... exceptions.類型異常
+[1] **= (2+0j) ... exceptions.類型異常
+[1] % (2+0j) ... exceptions.類型異常
+[1] %= (2+0j) ... exceptions.類型異常
+[1] + [1] = [1, 1]
+[1] += [1] => [1, 1]
+[1] - [1] ... exceptions.類型異常
+[1] -= [1] ... exceptions.類型異常
+[1] * [1] ... exceptions.類型異常
+[1] *= [1] ... exceptions.類型異常
+[1] / [1] ... exceptions.類型異常
+[1] /= [1] ... exceptions.類型異常
+[1] ** [1] ... exceptions.類型異常
+[1] **= [1] ... exceptions.類型異常
+[1] % [1] ... exceptions.類型異常
+[1] %= [1] ... exceptions.類型異常
+[1] + (2,) ... exceptions.類型異常
+[1] += (2,) => [1, 2]
+[1] - (2,) ... exceptions.類型異常
+[1] -= (2,) ... exceptions.類型異常
+[1] * (2,) ... exceptions.類型異常
+[1] *= (2,) ... exceptions.類型異常
+[1] / (2,) ... exceptions.類型異常
+[1] /= (2,) ... exceptions.類型異常
+[1] ** (2,) ... exceptions.類型異常
+[1] **= (2,) ... exceptions.類型異常
+[1] % (2,) ... exceptions.類型異常
+[1] %= (2,) ... exceptions.類型異常
+[1] + 無 ... exceptions.類型異常
+[1] += 無 ... exceptions.類型異常
+[1] - 無 ... exceptions.類型異常
+[1] -= 無 ... exceptions.類型異常
+[1] * 無 ... exceptions.類型異常
+[1] *= 無 ... exceptions.類型異常
+[1] / 無 ... exceptions.類型異常
+[1] /= 無 ... exceptions.類型異常
+[1] ** 無 ... exceptions.類型異常
+[1] **= 無 ... exceptions.類型異常
+[1] % 無 ... exceptions.類型異常
+[1] %= 無 ... exceptions.類型異常
+[1] + <MethodNumber 1> ... exceptions.類型異常
+[1] += <MethodNumber 1> ... exceptions.屬性異常
+[1] - <MethodNumber 1> ... exceptions.類型異常
+[1] -= <MethodNumber 1> ... exceptions.類型異常
+[1] * <MethodNumber 1> = [1]
+[1] *= <MethodNumber 1> ... exceptions.類型異常
+[1] / <MethodNumber 1> ... exceptions.類型異常
+[1] /= <MethodNumber 1> ... exceptions.類型異常
+[1] ** <MethodNumber 1> ... exceptions.類型異常
+[1] **= <MethodNumber 1> ... exceptions.類型異常
+[1] % <MethodNumber 1> ... exceptions.類型異常
+[1] %= <MethodNumber 1> ... exceptions.類型異常
+[1] + <CoerceNumber 2> ... exceptions.類型異常
+[1] += <CoerceNumber 2> ... exceptions.屬性異常
+[1] - <CoerceNumber 2> ... exceptions.類型異常
+[1] -= <CoerceNumber 2> ... exceptions.類型異常
+[1] * <CoerceNumber 2> = [1, 1]
+[1] *= <CoerceNumber 2> ... exceptions.類型異常
+[1] / <CoerceNumber 2> ... exceptions.類型異常
+[1] /= <CoerceNumber 2> ... exceptions.類型異常
+[1] ** <CoerceNumber 2> ... exceptions.類型異常
+[1] **= <CoerceNumber 2> ... exceptions.類型異常
+[1] % <CoerceNumber 2> ... exceptions.類型異常
+[1] %= <CoerceNumber 2> ... exceptions.類型異常
+(2,) + 2 ... exceptions.類型異常
+(2,) += 2 ... exceptions.類型異常
+(2,) - 2 ... exceptions.類型異常
+(2,) -= 2 ... exceptions.類型異常
+(2,) * 2 = (2, 2)
+(2,) *= 2 => (2, 2)
+(2,) / 2 ... exceptions.類型異常
+(2,) /= 2 ... exceptions.類型異常
+(2,) ** 2 ... exceptions.類型異常
+(2,) **= 2 ... exceptions.類型異常
+(2,) % 2 ... exceptions.類型異常
+(2,) %= 2 ... exceptions.類型異常
+(2,) + 4.0 ... exceptions.類型異常
+(2,) += 4.0 ... exceptions.類型異常
+(2,) - 4.0 ... exceptions.類型異常
+(2,) -= 4.0 ... exceptions.類型異常
+(2,) * 4.0 ... exceptions.類型異常
+(2,) *= 4.0 ... exceptions.類型異常
+(2,) / 4.0 ... exceptions.類型異常
+(2,) /= 4.0 ... exceptions.類型異常
+(2,) ** 4.0 ... exceptions.類型異常
+(2,) **= 4.0 ... exceptions.類型異常
+(2,) % 4.0 ... exceptions.類型異常
+(2,) %= 4.0 ... exceptions.類型異常
+(2,) + 2 ... exceptions.類型異常
+(2,) += 2 ... exceptions.類型異常
+(2,) - 2 ... exceptions.類型異常
+(2,) -= 2 ... exceptions.類型異常
+(2,) * 2 = (2, 2)
+(2,) *= 2 => (2, 2)
+(2,) / 2 ... exceptions.類型異常
+(2,) /= 2 ... exceptions.類型異常
+(2,) ** 2 ... exceptions.類型異常
+(2,) **= 2 ... exceptions.類型異常
+(2,) % 2 ... exceptions.類型異常
+(2,) %= 2 ... exceptions.類型異常
+(2,) + (2+0j) ... exceptions.類型異常
+(2,) += (2+0j) ... exceptions.類型異常
+(2,) - (2+0j) ... exceptions.類型異常
+(2,) -= (2+0j) ... exceptions.類型異常
+(2,) * (2+0j) ... exceptions.類型異常
+(2,) *= (2+0j) ... exceptions.類型異常
+(2,) / (2+0j) ... exceptions.類型異常
+(2,) /= (2+0j) ... exceptions.類型異常
+(2,) ** (2+0j) ... exceptions.類型異常
+(2,) **= (2+0j) ... exceptions.類型異常
+(2,) % (2+0j) ... exceptions.類型異常
+(2,) %= (2+0j) ... exceptions.類型異常
+(2,) + [1] ... exceptions.類型異常
+(2,) += [1] ... exceptions.類型異常
+(2,) - [1] ... exceptions.類型異常
+(2,) -= [1] ... exceptions.類型異常
+(2,) * [1] ... exceptions.類型異常
+(2,) *= [1] ... exceptions.類型異常
+(2,) / [1] ... exceptions.類型異常
+(2,) /= [1] ... exceptions.類型異常
+(2,) ** [1] ... exceptions.類型異常
+(2,) **= [1] ... exceptions.類型異常
+(2,) % [1] ... exceptions.類型異常
+(2,) %= [1] ... exceptions.類型異常
+(2,) + (2,) = (2, 2)
+(2,) += (2,) => (2, 2)
+(2,) - (2,) ... exceptions.類型異常
+(2,) -= (2,) ... exceptions.類型異常
+(2,) * (2,) ... exceptions.類型異常
+(2,) *= (2,) ... exceptions.類型異常
+(2,) / (2,) ... exceptions.類型異常
+(2,) /= (2,) ... exceptions.類型異常
+(2,) ** (2,) ... exceptions.類型異常
+(2,) **= (2,) ... exceptions.類型異常
+(2,) % (2,) ... exceptions.類型異常
+(2,) %= (2,) ... exceptions.類型異常
+(2,) + 無 ... exceptions.類型異常
+(2,) += 無 ... exceptions.類型異常
+(2,) - 無 ... exceptions.類型異常
+(2,) -= 無 ... exceptions.類型異常
+(2,) * 無 ... exceptions.類型異常
+(2,) *= 無 ... exceptions.類型異常
+(2,) / 無 ... exceptions.類型異常
+(2,) /= 無 ... exceptions.類型異常
+(2,) ** 無 ... exceptions.類型異常
+(2,) **= 無 ... exceptions.類型異常
+(2,) % 無 ... exceptions.類型異常
+(2,) %= 無 ... exceptions.類型異常
+(2,) + <MethodNumber 1> ... exceptions.類型異常
+(2,) += <MethodNumber 1> ... exceptions.類型異常
+(2,) - <MethodNumber 1> ... exceptions.類型異常
+(2,) -= <MethodNumber 1> ... exceptions.類型異常
+(2,) * <MethodNumber 1> = (2,)
+(2,) *= <MethodNumber 1> => (2,)
+(2,) / <MethodNumber 1> ... exceptions.類型異常
+(2,) /= <MethodNumber 1> ... exceptions.類型異常
+(2,) ** <MethodNumber 1> ... exceptions.類型異常
+(2,) **= <MethodNumber 1> ... exceptions.類型異常
+(2,) % <MethodNumber 1> ... exceptions.類型異常
+(2,) %= <MethodNumber 1> ... exceptions.類型異常
+(2,) + <CoerceNumber 2> ... exceptions.類型異常
+(2,) += <CoerceNumber 2> ... exceptions.類型異常
+(2,) - <CoerceNumber 2> ... exceptions.類型異常
+(2,) -= <CoerceNumber 2> ... exceptions.類型異常
+(2,) * <CoerceNumber 2> = (2, 2)
+(2,) *= <CoerceNumber 2> => (2, 2)
+(2,) / <CoerceNumber 2> ... exceptions.類型異常
+(2,) /= <CoerceNumber 2> ... exceptions.類型異常
+(2,) ** <CoerceNumber 2> ... exceptions.類型異常
+(2,) **= <CoerceNumber 2> ... exceptions.類型異常
+(2,) % <CoerceNumber 2> ... exceptions.類型異常
+(2,) %= <CoerceNumber 2> ... exceptions.類型異常
+無 + 2 ... exceptions.類型異常
+無 += 2 ... exceptions.類型異常
+無 - 2 ... exceptions.類型異常
+無 -= 2 ... exceptions.類型異常
+無 * 2 ... exceptions.類型異常
+無 *= 2 ... exceptions.類型異常
+無 / 2 ... exceptions.類型異常
+無 /= 2 ... exceptions.類型異常
+無 ** 2 ... exceptions.類型異常
+無 **= 2 ... exceptions.類型異常
+無 % 2 ... exceptions.類型異常
+無 %= 2 ... exceptions.類型異常
+無 + 4.0 ... exceptions.類型異常
+無 += 4.0 ... exceptions.類型異常
+無 - 4.0 ... exceptions.類型異常
+無 -= 4.0 ... exceptions.類型異常
+無 * 4.0 ... exceptions.類型異常
+無 *= 4.0 ... exceptions.類型異常
+無 / 4.0 ... exceptions.類型異常
+無 /= 4.0 ... exceptions.類型異常
+無 ** 4.0 ... exceptions.類型異常
+無 **= 4.0 ... exceptions.類型異常
+無 % 4.0 ... exceptions.類型異常
+無 %= 4.0 ... exceptions.類型異常
+無 + 2 ... exceptions.類型異常
+無 += 2 ... exceptions.類型異常
+無 - 2 ... exceptions.類型異常
+無 -= 2 ... exceptions.類型異常
+無 * 2 ... exceptions.類型異常
+無 *= 2 ... exceptions.類型異常
+無 / 2 ... exceptions.類型異常
+無 /= 2 ... exceptions.類型異常
+無 ** 2 ... exceptions.類型異常
+無 **= 2 ... exceptions.類型異常
+無 % 2 ... exceptions.類型異常
+無 %= 2 ... exceptions.類型異常
+無 + (2+0j) ... exceptions.類型異常
+無 += (2+0j) ... exceptions.類型異常
+無 - (2+0j) ... exceptions.類型異常
+無 -= (2+0j) ... exceptions.類型異常
+無 * (2+0j) ... exceptions.類型異常
+無 *= (2+0j) ... exceptions.類型異常
+無 / (2+0j) ... exceptions.類型異常
+無 /= (2+0j) ... exceptions.類型異常
+無 ** (2+0j) ... exceptions.類型異常
+無 **= (2+0j) ... exceptions.類型異常
+無 % (2+0j) ... exceptions.類型異常
+無 %= (2+0j) ... exceptions.類型異常
+無 + [1] ... exceptions.類型異常
+無 += [1] ... exceptions.類型異常
+無 - [1] ... exceptions.類型異常
+無 -= [1] ... exceptions.類型異常
+無 * [1] ... exceptions.類型異常
+無 *= [1] ... exceptions.類型異常
+無 / [1] ... exceptions.類型異常
+無 /= [1] ... exceptions.類型異常
+無 ** [1] ... exceptions.類型異常
+無 **= [1] ... exceptions.類型異常
+無 % [1] ... exceptions.類型異常
+無 %= [1] ... exceptions.類型異常
+無 + (2,) ... exceptions.類型異常
+無 += (2,) ... exceptions.類型異常
+無 - (2,) ... exceptions.類型異常
+無 -= (2,) ... exceptions.類型異常
+無 * (2,) ... exceptions.類型異常
+無 *= (2,) ... exceptions.類型異常
+無 / (2,) ... exceptions.類型異常
+無 /= (2,) ... exceptions.類型異常
+無 ** (2,) ... exceptions.類型異常
+無 **= (2,) ... exceptions.類型異常
+無 % (2,) ... exceptions.類型異常
+無 %= (2,) ... exceptions.類型異常
+無 + 無 ... exceptions.類型異常
+無 += 無 ... exceptions.類型異常
+無 - 無 ... exceptions.類型異常
+無 -= 無 ... exceptions.類型異常
+無 * 無 ... exceptions.類型異常
+無 *= 無 ... exceptions.類型異常
+無 / 無 ... exceptions.類型異常
+無 /= 無 ... exceptions.類型異常
+無 ** 無 ... exceptions.類型異常
+無 **= 無 ... exceptions.類型異常
+無 % 無 ... exceptions.類型異常
+無 %= 無 ... exceptions.類型異常
+無 + <MethodNumber 1> ... exceptions.類型異常
+無 += <MethodNumber 1> ... exceptions.類型異常
+無 - <MethodNumber 1> ... exceptions.類型異常
+無 -= <MethodNumber 1> ... exceptions.類型異常
+無 * <MethodNumber 1> ... exceptions.類型異常
+無 *= <MethodNumber 1> ... exceptions.類型異常
+無 / <MethodNumber 1> ... exceptions.類型異常
+無 /= <MethodNumber 1> ... exceptions.類型異常
+無 ** <MethodNumber 1> ... exceptions.類型異常
+無 **= <MethodNumber 1> ... exceptions.類型異常
+無 % <MethodNumber 1> ... exceptions.類型異常
+無 %= <MethodNumber 1> ... exceptions.類型異常
+無 + <CoerceNumber 2> ... exceptions.類型異常
+無 += <CoerceNumber 2> ... exceptions.類型異常
+無 - <CoerceNumber 2> ... exceptions.類型異常
+無 -= <CoerceNumber 2> ... exceptions.類型異常
+無 * <CoerceNumber 2> ... exceptions.類型異常
+無 *= <CoerceNumber 2> ... exceptions.類型異常
+無 / <CoerceNumber 2> ... exceptions.類型異常
+無 /= <CoerceNumber 2> ... exceptions.類型異常
+無 ** <CoerceNumber 2> ... exceptions.類型異常
+無 **= <CoerceNumber 2> ... exceptions.類型異常
+無 % <CoerceNumber 2> ... exceptions.類型異常
+無 %= <CoerceNumber 2> ... exceptions.類型異常
+<MethodNumber 1> + 2 = 3
+<MethodNumber 1> += 2 => 3
+<MethodNumber 1> - 2 = -1
+<MethodNumber 1> -= 2 => -1
+<MethodNumber 1> * 2 = 2
+<MethodNumber 1> *= 2 => 2
+<MethodNumber 1> / 2 = 0
+<MethodNumber 1> /= 2 => 0
+<MethodNumber 1> ** 2 = 1
+<MethodNumber 1> **= 2 => 1
+<MethodNumber 1> % 2 = 1
+<MethodNumber 1> %= 2 => 1
+<MethodNumber 1> + 4.0 = 5.0
+<MethodNumber 1> += 4.0 => 5.0
+<MethodNumber 1> - 4.0 = -3.0
+<MethodNumber 1> -= 4.0 => -3.0
+<MethodNumber 1> * 4.0 = 4.0
+<MethodNumber 1> *= 4.0 => 4.0
+<MethodNumber 1> / 4.0 = 0.25
+<MethodNumber 1> /= 4.0 => 0.25
+<MethodNumber 1> ** 4.0 = 1.0
+<MethodNumber 1> **= 4.0 => 1.0
+<MethodNumber 1> % 4.0 = 1.0
+<MethodNumber 1> %= 4.0 => 1.0
+<MethodNumber 1> + 2 = 3
+<MethodNumber 1> += 2 => 3
+<MethodNumber 1> - 2 = -1
+<MethodNumber 1> -= 2 => -1
+<MethodNumber 1> * 2 = 2
+<MethodNumber 1> *= 2 => 2
+<MethodNumber 1> / 2 = 0
+<MethodNumber 1> /= 2 => 0
+<MethodNumber 1> ** 2 = 1
+<MethodNumber 1> **= 2 => 1
+<MethodNumber 1> % 2 = 1
+<MethodNumber 1> %= 2 => 1
+<MethodNumber 1> + (2+0j) = (3+0j)
+<MethodNumber 1> += (2+0j) => (3+0j)
+<MethodNumber 1> - (2+0j) = (-1+0j)
+<MethodNumber 1> -= (2+0j) => (-1+0j)
+<MethodNumber 1> * (2+0j) = (2+0j)
+<MethodNumber 1> *= (2+0j) => (2+0j)
+<MethodNumber 1> / (2+0j) = (0.5+0j)
+<MethodNumber 1> /= (2+0j) => (0.5+0j)
+<MethodNumber 1> ** (2+0j) = (1+0j)
+<MethodNumber 1> **= (2+0j) => (1+0j)
+<MethodNumber 1> % (2+0j) = (1+0j)
+<MethodNumber 1> %= (2+0j) => (1+0j)
+<MethodNumber 1> + [1] ... exceptions.類型異常
+<MethodNumber 1> += [1] ... exceptions.類型異常
+<MethodNumber 1> - [1] ... exceptions.類型異常
+<MethodNumber 1> -= [1] ... exceptions.類型異常
+<MethodNumber 1> * [1] = [1]
+<MethodNumber 1> *= [1] => [1]
+<MethodNumber 1> / [1] ... exceptions.類型異常
+<MethodNumber 1> /= [1] ... exceptions.類型異常
+<MethodNumber 1> ** [1] ... exceptions.類型異常
+<MethodNumber 1> **= [1] ... exceptions.類型異常
+<MethodNumber 1> % [1] ... exceptions.類型異常
+<MethodNumber 1> %= [1] ... exceptions.類型異常
+<MethodNumber 1> + (2,) ... exceptions.類型異常
+<MethodNumber 1> += (2,) ... exceptions.類型異常
+<MethodNumber 1> - (2,) ... exceptions.類型異常
+<MethodNumber 1> -= (2,) ... exceptions.類型異常
+<MethodNumber 1> * (2,) = (2,)
+<MethodNumber 1> *= (2,) => (2,)
+<MethodNumber 1> / (2,) ... exceptions.類型異常
+<MethodNumber 1> /= (2,) ... exceptions.類型異常
+<MethodNumber 1> ** (2,) ... exceptions.類型異常
+<MethodNumber 1> **= (2,) ... exceptions.類型異常
+<MethodNumber 1> % (2,) ... exceptions.類型異常
+<MethodNumber 1> %= (2,) ... exceptions.類型異常
+<MethodNumber 1> + 無 ... exceptions.類型異常
+<MethodNumber 1> += 無 ... exceptions.類型異常
+<MethodNumber 1> - 無 ... exceptions.類型異常
+<MethodNumber 1> -= 無 ... exceptions.類型異常
+<MethodNumber 1> * 無 ... exceptions.類型異常
+<MethodNumber 1> *= 無 ... exceptions.類型異常
+<MethodNumber 1> / 無 ... exceptions.類型異常
+<MethodNumber 1> /= 無 ... exceptions.類型異常
+<MethodNumber 1> ** 無 ... exceptions.類型異常
+<MethodNumber 1> **= 無 ... exceptions.類型異常
+<MethodNumber 1> % 無 ... exceptions.類型異常
+<MethodNumber 1> %= 無 ... exceptions.類型異常
+<MethodNumber 1> + <MethodNumber 1> = 2
+<MethodNumber 1> += <MethodNumber 1> => 2
+<MethodNumber 1> - <MethodNumber 1> = 0
+<MethodNumber 1> -= <MethodNumber 1> => 0
+<MethodNumber 1> * <MethodNumber 1> = 1
+<MethodNumber 1> *= <MethodNumber 1> => 1
+<MethodNumber 1> / <MethodNumber 1> = 1
+<MethodNumber 1> /= <MethodNumber 1> => 1
+<MethodNumber 1> ** <MethodNumber 1> = 1
+<MethodNumber 1> **= <MethodNumber 1> => 1
+<MethodNumber 1> % <MethodNumber 1> = 0
+<MethodNumber 1> %= <MethodNumber 1> => 0
+<MethodNumber 1> + <CoerceNumber 2> = 3
+<MethodNumber 1> += <CoerceNumber 2> => 3
+<MethodNumber 1> - <CoerceNumber 2> = -1
+<MethodNumber 1> -= <CoerceNumber 2> => -1
+<MethodNumber 1> * <CoerceNumber 2> = 2
+<MethodNumber 1> *= <CoerceNumber 2> => 2
+<MethodNumber 1> / <CoerceNumber 2> = 0
+<MethodNumber 1> /= <CoerceNumber 2> => 0
+<MethodNumber 1> ** <CoerceNumber 2> = 1
+<MethodNumber 1> **= <CoerceNumber 2> => 1
+<MethodNumber 1> % <CoerceNumber 2> = 1
+<MethodNumber 1> %= <CoerceNumber 2> => 1
+<CoerceNumber 2> + 2 = 4
+<CoerceNumber 2> += 2 => 4
+<CoerceNumber 2> - 2 = 0
+<CoerceNumber 2> -= 2 => 0
+<CoerceNumber 2> * 2 = 4
+<CoerceNumber 2> *= 2 => 4
+<CoerceNumber 2> / 2 = 1
+<CoerceNumber 2> /= 2 => 1
+<CoerceNumber 2> ** 2 = 4
+<CoerceNumber 2> **= 2 => 4
+<CoerceNumber 2> % 2 = 0
+<CoerceNumber 2> %= 2 => 0
+<CoerceNumber 2> + 4.0 = 6.0
+<CoerceNumber 2> += 4.0 => 6.0
+<CoerceNumber 2> - 4.0 = -2.0
+<CoerceNumber 2> -= 4.0 => -2.0
+<CoerceNumber 2> * 4.0 = 8.0
+<CoerceNumber 2> *= 4.0 => 8.0
+<CoerceNumber 2> / 4.0 = 0.5
+<CoerceNumber 2> /= 4.0 => 0.5
+<CoerceNumber 2> ** 4.0 = 16.0
+<CoerceNumber 2> **= 4.0 => 16.0
+<CoerceNumber 2> % 4.0 = 2.0
+<CoerceNumber 2> %= 4.0 => 2.0
+<CoerceNumber 2> + 2 = 4
+<CoerceNumber 2> += 2 => 4
+<CoerceNumber 2> - 2 = 0
+<CoerceNumber 2> -= 2 => 0
+<CoerceNumber 2> * 2 = 4
+<CoerceNumber 2> *= 2 => 4
+<CoerceNumber 2> / 2 = 1
+<CoerceNumber 2> /= 2 => 1
+<CoerceNumber 2> ** 2 = 4
+<CoerceNumber 2> **= 2 => 4
+<CoerceNumber 2> % 2 = 0
+<CoerceNumber 2> %= 2 => 0
+<CoerceNumber 2> + (2+0j) = (4+0j)
+<CoerceNumber 2> += (2+0j) => (4+0j)
+<CoerceNumber 2> - (2+0j) = 0j
+<CoerceNumber 2> -= (2+0j) => 0j
+<CoerceNumber 2> * (2+0j) = (4+0j)
+<CoerceNumber 2> *= (2+0j) => (4+0j)
+<CoerceNumber 2> / (2+0j) = (1+0j)
+<CoerceNumber 2> /= (2+0j) => (1+0j)
+<CoerceNumber 2> ** (2+0j) = (4+0j)
+<CoerceNumber 2> **= (2+0j) => (4+0j)
+<CoerceNumber 2> % (2+0j) = 0j
+<CoerceNumber 2> %= (2+0j) => 0j
+<CoerceNumber 2> + [1] ... exceptions.類型異常
+<CoerceNumber 2> += [1] ... exceptions.類型異常
+<CoerceNumber 2> - [1] ... exceptions.類型異常
+<CoerceNumber 2> -= [1] ... exceptions.類型異常
+<CoerceNumber 2> * [1] = [1, 1]
+<CoerceNumber 2> *= [1] => [1, 1]
+<CoerceNumber 2> / [1] ... exceptions.類型異常
+<CoerceNumber 2> /= [1] ... exceptions.類型異常
+<CoerceNumber 2> ** [1] ... exceptions.類型異常
+<CoerceNumber 2> **= [1] ... exceptions.類型異常
+<CoerceNumber 2> % [1] ... exceptions.類型異常
+<CoerceNumber 2> %= [1] ... exceptions.類型異常
+<CoerceNumber 2> + (2,) ... exceptions.類型異常
+<CoerceNumber 2> += (2,) ... exceptions.類型異常
+<CoerceNumber 2> - (2,) ... exceptions.類型異常
+<CoerceNumber 2> -= (2,) ... exceptions.類型異常
+<CoerceNumber 2> * (2,) = (2, 2)
+<CoerceNumber 2> *= (2,) => (2, 2)
+<CoerceNumber 2> / (2,) ... exceptions.類型異常
+<CoerceNumber 2> /= (2,) ... exceptions.類型異常
+<CoerceNumber 2> ** (2,) ... exceptions.類型異常
+<CoerceNumber 2> **= (2,) ... exceptions.類型異常
+<CoerceNumber 2> % (2,) ... exceptions.類型異常
+<CoerceNumber 2> %= (2,) ... exceptions.類型異常
+<CoerceNumber 2> + 無 ... exceptions.類型異常
+<CoerceNumber 2> += 無 ... exceptions.類型異常
+<CoerceNumber 2> - 無 ... exceptions.類型異常
+<CoerceNumber 2> -= 無 ... exceptions.類型異常
+<CoerceNumber 2> * 無 ... exceptions.類型異常
+<CoerceNumber 2> *= 無 ... exceptions.類型異常
+<CoerceNumber 2> / 無 ... exceptions.類型異常
+<CoerceNumber 2> /= 無 ... exceptions.類型異常
+<CoerceNumber 2> ** 無 ... exceptions.類型異常
+<CoerceNumber 2> **= 無 ... exceptions.類型異常
+<CoerceNumber 2> % 無 ... exceptions.類型異常
+<CoerceNumber 2> %= 無 ... exceptions.類型異常
+<CoerceNumber 2> + <MethodNumber 1> = 3
+<CoerceNumber 2> += <MethodNumber 1> => 3
+<CoerceNumber 2> - <MethodNumber 1> = 1
+<CoerceNumber 2> -= <MethodNumber 1> => 1
+<CoerceNumber 2> * <MethodNumber 1> = 2
+<CoerceNumber 2> *= <MethodNumber 1> => 2
+<CoerceNumber 2> / <MethodNumber 1> = 2
+<CoerceNumber 2> /= <MethodNumber 1> => 2
+<CoerceNumber 2> ** <MethodNumber 1> = 2
+<CoerceNumber 2> **= <MethodNumber 1> => 2
+<CoerceNumber 2> % <MethodNumber 1> = 0
+<CoerceNumber 2> %= <MethodNumber 1> => 0
+<CoerceNumber 2> + <CoerceNumber 2> = 4
+<CoerceNumber 2> += <CoerceNumber 2> => 4
+<CoerceNumber 2> - <CoerceNumber 2> = 0
+<CoerceNumber 2> -= <CoerceNumber 2> => 0
+<CoerceNumber 2> * <CoerceNumber 2> = 4
+<CoerceNumber 2> *= <CoerceNumber 2> => 4
+<CoerceNumber 2> / <CoerceNumber 2> = 1
+<CoerceNumber 2> /= <CoerceNumber 2> => 1
+<CoerceNumber 2> ** <CoerceNumber 2> = 4
+<CoerceNumber 2> **= <CoerceNumber 2> => 4
+<CoerceNumber 2> % <CoerceNumber 2> = 0
+<CoerceNumber 2> %= <CoerceNumber 2> => 0
+divmod(2, 2) = (1, 0)
+divmod(2, 4.0) = (0.0, 2.0)
+divmod(2, 2) = (1L, 0L)
+divmod(2, (2+0j)) = ((1+0j), 0j)
+divmod(2, [1]) ... exceptions.類型異常
+divmod(2, (2,)) ... exceptions.類型異常
+divmod(2, 無) ... exceptions.類型異常
+divmod(2, <MethodNumber 1>) ... exceptions.類型異常
+divmod(2, <CoerceNumber 2>) = (1, 0)
+divmod(4.0, 2) = (2.0, 0.0)
+divmod(4.0, 4.0) = (1.0, 0.0)
+divmod(4.0, 2) = (2.0, 0.0)
+divmod(4.0, (2+0j)) = ((2+0j), 0j)
+divmod(4.0, [1]) ... exceptions.類型異常
+divmod(4.0, (2,)) ... exceptions.類型異常
+divmod(4.0, 無) ... exceptions.類型異常
+divmod(4.0, <MethodNumber 1>) ... exceptions.類型異常
+divmod(4.0, <CoerceNumber 2>) = (2.0, 0.0)
+divmod(2, 2) = (1L, 0L)
+divmod(2, 4.0) = (0.0, 2.0)
+divmod(2, 2) = (1L, 0L)
+divmod(2, (2+0j)) = ((1+0j), 0j)
+divmod(2, [1]) ... exceptions.類型異常
+divmod(2, (2,)) ... exceptions.類型異常
+divmod(2, 無) ... exceptions.類型異常
+divmod(2, <MethodNumber 1>) ... exceptions.類型異常
+divmod(2, <CoerceNumber 2>) = (1L, 0L)
+divmod((2+0j), 2) = ((1+0j), 0j)
+divmod((2+0j), 4.0) = (0j, (2+0j))
+divmod((2+0j), 2) = ((1+0j), 0j)
+divmod((2+0j), (2+0j)) = ((1+0j), 0j)
+divmod((2+0j), [1]) ... exceptions.類型異常
+divmod((2+0j), (2,)) ... exceptions.類型異常
+divmod((2+0j), 無) ... exceptions.類型異常
+divmod((2+0j), <MethodNumber 1>) ... exceptions.類型異常
+divmod((2+0j), <CoerceNumber 2>) = ((1+0j), 0j)
+divmod([1], 2) ... exceptions.類型異常
+divmod([1], 4.0) ... exceptions.類型異常
+divmod([1], 2) ... exceptions.類型異常
+divmod([1], (2+0j)) ... exceptions.類型異常
+divmod([1], [1]) ... exceptions.類型異常
+divmod([1], (2,)) ... exceptions.類型異常
+divmod([1], 無) ... exceptions.類型異常
+divmod([1], <MethodNumber 1>) ... exceptions.類型異常
+divmod([1], <CoerceNumber 2>) ... exceptions.類型異常
+divmod((2,), 2) ... exceptions.類型異常
+divmod((2,), 4.0) ... exceptions.類型異常
+divmod((2,), 2) ... exceptions.類型異常
+divmod((2,), (2+0j)) ... exceptions.類型異常
+divmod((2,), [1]) ... exceptions.類型異常
+divmod((2,), (2,)) ... exceptions.類型異常
+divmod((2,), 無) ... exceptions.類型異常
+divmod((2,), <MethodNumber 1>) ... exceptions.類型異常
+divmod((2,), <CoerceNumber 2>) ... exceptions.類型異常
+divmod(無, 2) ... exceptions.類型異常
+divmod(無, 4.0) ... exceptions.類型異常
+divmod(無, 2) ... exceptions.類型異常
+divmod(無, (2+0j)) ... exceptions.類型異常
+divmod(無, [1]) ... exceptions.類型異常
+divmod(無, (2,)) ... exceptions.類型異常
+divmod(無, 無) ... exceptions.類型異常
+divmod(無, <MethodNumber 1>) ... exceptions.類型異常
+divmod(無, <CoerceNumber 2>) ... exceptions.類型異常
+divmod(<MethodNumber 1>, 2) ... exceptions.類型異常
+divmod(<MethodNumber 1>, 4.0) ... exceptions.類型異常
+divmod(<MethodNumber 1>, 2) ... exceptions.類型異常
+divmod(<MethodNumber 1>, (2+0j)) ... exceptions.類型異常
+divmod(<MethodNumber 1>, [1]) ... exceptions.類型異常
+divmod(<MethodNumber 1>, (2,)) ... exceptions.類型異常
+divmod(<MethodNumber 1>, 無) ... exceptions.類型異常
+divmod(<MethodNumber 1>, <MethodNumber 1>) ... exceptions.類型異常
+divmod(<MethodNumber 1>, <CoerceNumber 2>) ... exceptions.類型異常
+divmod(<CoerceNumber 2>, 2) = (1, 0)
+divmod(<CoerceNumber 2>, 4.0) = (0.0, 2.0)
+divmod(<CoerceNumber 2>, 2) = (1L, 0L)
+divmod(<CoerceNumber 2>, (2+0j)) = ((1+0j), 0j)
+divmod(<CoerceNumber 2>, [1]) ... exceptions.類型異常
+divmod(<CoerceNumber 2>, (2,)) ... exceptions.類型異常
+divmod(<CoerceNumber 2>, 無) ... exceptions.類型異常
+divmod(<CoerceNumber 2>, <MethodNumber 1>) ... exceptions.類型異常
+divmod(<CoerceNumber 2>, <CoerceNumber 2>) = (1, 0)

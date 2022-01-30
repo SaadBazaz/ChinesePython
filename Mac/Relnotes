@@ -1,0 +1,68 @@
+Changes in 2.1.1 since 2.1
+--------------------------
+
+These release notes refer to Mac-specific changes only. See NEWS (in the Misc folder)
+for machine-independent changes.
+
+- Handling non-ascii characters in sys.path on non-MacRoman systems should  be fixed,
+  iff MacPython has a codec for the charset. Otherwise you should get an error, at least.
+  Pathnames in sys.path also retain their original case again.
+- IDE could crash on corrupt preferences. Fixed.
+- IDE will now work if you use either pre or sre as re.
+- Evt.WaitNextEvent could give an error when bit 15 was set, which could cause a problem
+  with IDE in classic mode. Fixed.
+- MacOS8.X users in classic mode had problems with Fm not loading, which also caused
+  IDE not working. Fixed.
+- Fm.IsAntiAliasedTextEnabled and Fm.SetAntiAliasedTextEnabled have gone for now, to
+  fix the problem above.
+- Disabled the Tkinter file I/O event handler, which was there but didn't work anyway.
+- Problems with loading dynamic modules that are part of a package into BuildApplication-
+  generated programs were fixed.
+- The order of the EasyDialogs yes/no/cancel buttons has been conformed to the Mac
+  standard.
+- Handling of Dialogs and Windows that were not created by Python is a bit more graceful
+  now, which may fix some crashes.
+- Ctl.SendControlMessage has gone. But it didn't work anyway.
+- Various problems with the TextEdit and Waste demos have been fixed.
+- Embedding/extending only: in preparation to allowing the use of MacPython modules in
+  unix-Python on OSX the xxx_New and xxx_Convert routines are now optionally vectored via
+  glue routines in macglue.c. The only change that may be needed for embedders/extenders is
+  that you may want to include pymactoolbox.h in your sources.
+- Embedding/extending only: Most MacPython source is now much more Mach-O friendly, and
+  should work with Universal Headers 3.4.
+- Experimental: an Mlte module has been added, an interface to the Multi Lingual Text
+  Engine. There is a minimal example in :Mac:Demos:mlte.
+- Experimental: some support for FSRef objects has been added. You can do little more that
+  convert them to/from FSSpecs. Carbon only.
+- Experimental: the CF module has some support for CoreFoundation types. CFString
+  and CFURL work, to a degree, and can be converted to/from Python strings and Unicode
+  objects. Carbon only.
+
+What is not in this distribution
+--------------------------------
+
+- The garbage collection mods have not been enabled, mainly due to lack of test-time.
+- Stackless Python/microthreads hasn't been ported to 2.1 yet. If/when it becomes available
+  Just will undoubtedly announce it on pythonmac-sig and the MacPython homepage.
+
+Known problems
+--------------
+
+This list is probably incomplete, more problems may be listed on the MacPython homepage,
+http://www.cwi.nl/~jack/macpython.html.
+
+- MacPython 2.1.1 (and MacPython 2.1) will not run correctly on a multiprocessor MacOS X
+  machine, it will quickly deadlock during I/O operations. The GUSI I/O library is suspected,
+  hints/clues/workarounds are solicited.
+- Tkinter does not work under Carbon.
+- The IDE and Tkinter do not work together. Run tkinter programs under PythonInterpreter.
+- Tkinter file events do not work, unless you have opened the file through Tcl (but then
+  you cannot access it from Python).
+- Aliases may not work in sys.path entries.
+- Under Carbon on OS9 only you may occasionally see a spurious KeyboardInterrupt. I have absolutely
+  no clue as to what is causing this.
+- PythonInterpreter used interactively will eat a lot of processor cycles. You should use
+  PythonIDE for interactive work and PythonInterpreter for scripts only. This is especially
+  true under OSX.
+- AliasMenu 2.2 conflicts with the Carbon version of Python. This is most likely a problem
+  with AliasMenu (which is from 1999, and thus predates Carbon altogether).

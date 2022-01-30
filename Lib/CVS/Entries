@@ -1,0 +1,188 @@
+/BaseHTTPServer.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/Bastion.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/CGIHTTPServer.py/1.2/Sat Jul 19 04:55:12 2003//
+/ConfigParser.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/Cookie.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/MimeWriter.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/Queue.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/SimpleHTTPServer.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/SocketServer.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/StringIO.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/TERMIOS.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/UserDict.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/UserList.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/UserString.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/__future__.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/aifc.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/anydbm.py/1.2/Sat Jul 19 04:55:12 2003//
+/asynchat.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/asyncore.py/1.2/Sat Jul 19 04:55:12 2003//
+/atexit.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/audiodev.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/base64.py/1.2/Sat Jul 19 04:55:12 2003//
+/bdb.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/binhex.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/bisect.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/calendar.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/cgi.py/1.2/Sat Jul 19 04:55:12 2003//
+/chunk.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/cmd.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/code.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/codecs.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/codeop.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/colorsys.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/commands.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/compileall.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/copy.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/copy_reg.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/dbhash.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/difflib.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/dircache.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/dis.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/doctest.py/1.3/Sat Jul 19 04:55:12 2003//
+/dospath.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/dumbdbm.py/1.2/Sat Jul 19 04:55:12 2003//
+/filecmp.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/fileinput.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/fnmatch.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/formatter.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/fpformat.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/ftplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/getopt.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/getpass.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/gettext.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/glob.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/gopherlib.py/1.2/Sat Jul 19 04:55:12 2003//
+/gzip.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/htmlentitydefs.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/htmllib.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/httplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/ihooks.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/imaplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/imghdr.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/imputil.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/inspect.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/keyword.py/1.3/Wed Apr 24 13:20:33 2002//
+/knee.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/linecache.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/locale.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/macpath.py/1.2/Sat Jul 19 04:55:12 2003//
+/macurl2path.py/1.1.1.1/Fri Apr 12 09:11:25 2002//
+/mailbox.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mailcap.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mhlib.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mimetools.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mimetypes.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mimify.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/multifile.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/mutex.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/netrc.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/nntplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/ntpath.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/nturl2path.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/os.py/1.2/Fri Apr 12 09:44:03 2002//
+/pdb.doc/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pdb.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pickle.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pipes.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/popen2.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/poplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/posixfile.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/posixpath.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pprint.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pre.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/profile.doc/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/profile.py/1.2/Sat Jul 19 04:55:12 2003//
+/pstats.py/1.2/Sat Jul 19 04:55:12 2003//
+/pty.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/py_compile.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/pyclbr.py/1.2/Sat Jul 19 04:55:12 2003//
+/pydoc.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/quopri.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/random.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/re.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/reconvert.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/regex_syntax.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/regsub.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/repr.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/rexec.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/rfc822.py/1.2/Sat Jul 19 04:55:12 2003//
+/rlcompleter.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/robotparser.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sched.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sgmllib.py/1.2/Sat Jul 19 04:55:12 2003//
+/shelve.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/shlex.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/shutil.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/site.py/1.7/Sat Jul 19 04:55:12 2003//
+/smtpd.py/1.2/Sat Jul 19 04:55:12 2003//
+/smtplib.py/1.2/Sat Jul 19 04:55:12 2003//
+/sndhdr.py/1.2/Sat Jul 19 04:55:12 2003//
+/socket.py/1.2/Sat Jul 19 04:55:12 2003//
+/sre.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sre_compile.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sre_constants.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sre_parse.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/stat.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/statcache.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/statvfs.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/string.py/1.2/Sat Jul 19 04:55:12 2003//
+/stringold.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sunau.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/sunaudio.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/symbol.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/symtable.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/tabnanny.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/telnetlib.py/1.2/Sat Jul 19 04:55:12 2003//
+/tempfile.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/threading.py/1.2/Sat Jul 19 04:55:12 2003//
+/toaiff.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/token.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/tokenize.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/traceback.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/tty.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/types.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/tzparse.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/unittest.py/1.2/Sat Jul 19 04:55:12 2003//
+/urllib.py/1.2/Sat Jul 19 04:55:12 2003//
+/urllib2.py/1.2/Sat Jul 19 04:55:12 2003//
+/urlparse.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/user.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/uu.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/warnings.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/wave.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/weakref.py/1.2/Sat Jul 19 04:55:12 2003//
+/webbrowser.py/1.2/Sat Jul 19 04:55:12 2003//
+/whichdb.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/whrandom.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/xdrlib.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/xmllib.py/1.1.1.1/Fri Apr 12 09:11:26 2002//
+/zipfile.py/1.2/Sat Jul 19 04:55:12 2003//
+D/chdict////
+D/curses////
+D/distutils////
+D/encodings////
+D/lib-old////
+D/lib-tk////
+D/lib_cp////
+D/plat-aix3////
+D/plat-aix4////
+D/plat-beos5////
+D/plat-freebsd2////
+D/plat-freebsd3////
+D/plat-freebsd4////
+D/plat-freebsd5////
+D/plat-generic////
+D/plat-irix5////
+D/plat-irix6////
+D/plat-linux1////
+D/plat-linux2////
+D/plat-netbsd1////
+D/plat-next3////
+D/plat-riscos////
+D/plat-sunos4////
+D/plat-sunos5////
+D/plat-unixware7////
+D/site-packages////
+D/test////
+D/xml////

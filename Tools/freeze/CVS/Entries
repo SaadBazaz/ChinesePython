@@ -1,0 +1,16 @@
+/.cvsignore/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/README/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/bkfile.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/checkextensions.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/checkextensions_win32.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/extensions_win32.ini/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/freeze.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/hello.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/makeconfig.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/makefreeze.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/makemakefile.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/modulefinder.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/parsesetup.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/win32.html/1.1.1.1/Fri Apr 12 09:11:50 2002//
+/winmakemakefile.py/1.1.1.1/Fri Apr 12 09:11:50 2002//
+D

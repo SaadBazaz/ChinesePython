@@ -1,0 +1,4 @@
+#!/usr/bin/env cpython
+
+import pydoc
+pydoc.cli()
